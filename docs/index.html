@@ -77,14 +77,13 @@
         .navbar {
             position: fixed;
             top: 0;
-            width: 100%;
+            left: 0; /* Align to the left */
+            width: auto; /* Adjust width if needed */
             background: rgba(0, 0, 0, 0.9);
             padding: 10px 20px;
             display: flex;
-            justify-content: space-between;
             align-items: center;
             z-index: 1000;
-        }
 
         .navbar .logo img {
             height: 45px;
@@ -125,7 +124,7 @@
             color: #28a745;
             padding: 5px;
             text-decoration: none;
-            transition: color 0.3s;
+            transition: color 0.2s;
         }
 
         .contact-dropdown a:hover {
@@ -189,7 +188,7 @@
 <body>
     <div class="navbar">
         <div class="logo">
-            <img src="docs/logo.jpg" alt="ASSAM READS Logo">
+<!--             <img src="docs/logo.jpg" alt="ASSAM READS Logo"> -->
         </div>
         <div class="nav-links">
             <a href="#home">HOME</a>
