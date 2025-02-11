@@ -13,7 +13,7 @@
 
         header {
             position: relative;
-            background-image: url('background.jpg'); /* Add your background image here */
+            background-image: url('ae1.png'); /* Add your background image here */
             background-size: cover;
             height: 100vh;
             display: flex;
@@ -71,7 +71,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="logo.png" alt="ASSAM READS Logo" id="logo">
+            <img src="ae2.png" alt="ASSAM READS Logo" id="logo">
         </div>
         <h1>ASSAM READS</h1>
         <nav>
