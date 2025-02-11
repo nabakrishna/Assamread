@@ -94,7 +94,7 @@
         .nav-links a {
             color: white;
             text-decoration: none;
-            margin: 0 10px;
+            margin: 0 7px;
             font-size: 1.1em;
             transition: color 0.3s;
             position: relative;
@@ -135,7 +135,7 @@
         /* Main Section Styling */
         .main-container {
             background-color: #001f3f; /* Dark blue outer background */
-            padding: 50px 0;
+            padding: 10px 0;
             display: flex;
             justify-content: center;
         }
@@ -148,6 +148,34 @@
             text-align: left;
             color: #111;
         }
+        .gallery {
+            width: 70%;
+            background-color: white;
+            padding: 50px;
+            border-radius: 10px;
+            text-align: center;
+            color: #111;
+            margin: 0px auto;
+        }
+
+        .image-container {
+             display: grid;
+             grid-template-columns: repeat(2, 1fr); /* Two images per row */
+             gap: 15px; /* Adjust space between images */
+             justify-content: start; /* Align images to the left */
+        }
+
+        .image-container img {
+            width: 100%; /* Make images responsive */
+            max-width: 150px; /* Limit size */
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+      
 
         /* Footer Section */
         footer {
@@ -214,15 +242,26 @@
             <p>ASSAM READS is a community dedicated to reviving the joy of reading among people of all ages. Our aim is to create a space where book lovers can come together, share their passion, and rediscover the magic of literature. We believe in fostering a culture of reading that inspires curiosity, creativity, and connection. Join us in our mission to bring back the habit of reading, one book at a time. Together, let’s build a community where stories unite us and knowledge empowers us.</p>
           
             <p>মনত আছেনে সেই সময়, যেতিয়া পাঠৰ কিতাপৰ মাজত লুকুৱাই বাহিৰা কিতাপ পঢ়ি ধৰা পৰিছিলোঁ? বা 'ৰংমন' পঢ়িবলৈ বাট চাই থকা সময়? এতিয়া সেই উৎসাহ ক’ত গ’ল? সময়ৰ অভাৱ, নে মোবাইল ফোনৰ গ্ৰাস? যদি আপুনিও বিচাৰে যে সমাজত আৰু নতুন প্রজন্মৰ মাজত কিতাপ পঢ়াৰ অভ্যাস বৰ্তি থাকক, তেন্তে আমাৰ এই প্ৰচেষ্টাত হাত আগবঢ়াওক। আমি একেলগে লগ হৈ নিমাতে কিতাপ পঢ়িম।</p>
+    </div>
+    <div class="main-container">
+        <section class="gallery" id="gallery">
+            <h2>OUR GALLERY</h2>
+            <div class="image-container">
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
+                <img src="image4.jpg" alt="Image 4">
+            </div>
         </section>
     </div>
+  
 
     <footer>
         <p>&copy; 2025 ASSAM READS. All rights reserved.</p>
         <p>Contact Information:</p>
         <p>For inquiries, please reach out to:</p>
-        <p>HCP: 111</p>
-        <p>pch: 222</p>
+        <p>kkk: 8453</p>
+        <p>nnn: 9931</p>
     </footer>
 </body>
 </html>
